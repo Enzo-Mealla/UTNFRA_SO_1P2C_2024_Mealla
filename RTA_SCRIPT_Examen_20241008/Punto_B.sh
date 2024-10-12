@@ -14,7 +14,7 @@ e
 p
 w
 EOF
-
+sudo mkfs -t ext4 /dev/sdc1
 
 for i in {1..9}
 do
@@ -36,5 +36,18 @@ n
 p
 w
 EOF
+
+#formateamos los discos
+
+sudo mkfs -t ext4 /dev/sdc5
+sudo mkfs -t ext4 /dev/sdc6
+sudo mkfs -t ext4 /dev/sdc7
+sudo mkfs -t ext4 /dev/sdc8
+sudo mkfs -t ext4 /dev/sdc9
+sudo mkfs -t ext4 /dev/sdc10
+sudo mkfs -t ext4 /dev/sdc11
+sudo mkfs -t ext4 /dev/sdc12
+sudo mkfs -t ext4 /dev/sdc13
+sudo mkfs -t ext4 /dev/sdc14
 
 
