@@ -15,7 +15,7 @@ p
 w
 EOF
 sudo mkfs -t ext4 /dev/sdc1
-sudo partprobe  /dev/sdb
+sudo partprobe  /dev/sdc1
 
 for i in {1..9}
 do
